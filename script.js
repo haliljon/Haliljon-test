@@ -76,12 +76,12 @@ function fruitProcessor(apples, oranges) {
 
 console.log(fruitProcessor(2, 3));
 */
-const calcAge = function (birthYear) {
-  return 2022 - birthYear;
+const calcAge = function (birthYeah) {
+  return 2022 - birthYeah;
 };
 
-const yearsUntilRetirement1 = function (birthYear, firstName) {
-  const retirement = 65 - calcAge(birthYear);
+const yearsUntilRetirement1 = function (birthYeah, firstName) {
+  const retirement = 65 - calcAge(birthYeah);
   if (retirement > 0) {
     return retirement;
   } else {
